@@ -58,7 +58,7 @@ public class CapturecontactadrressTest {
 		ImageIO.write(eleScreenshot, "png", screenshot);
 
 		// Copy the element screenshot to disk
-		File screenshotLocation = new File("C:\\Users\\aka_s\\git\\Daviesgroupproject\\davies-group\\screenshot\\screenshot.png");
+		File screenshotLocation = new File("C:\\Users\\aka_s\\git\\Daviesgroupproject\\davies-group\\screenshot1.png");
 		FileUtils.copyFile(screenshot, screenshotLocation);
 
 		//close the browser
