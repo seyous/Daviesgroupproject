@@ -13,7 +13,7 @@ public class Solutionpage {
 
 	WebDriver driver;
 
-	
+	//Constructor for the webdriver
 	public Solutionpage(WebDriver driver) {
 		this.driver = driver;
 	}

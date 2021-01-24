@@ -12,10 +12,12 @@ public class Contactpage {
 
 	WebDriver driver;
 
+	//Constructor for the webdriver
 	public Contactpage(WebDriver driver) {
 		this.driver = driver;
 	}
 
+	//Collection of web element
 	@FindBy(how = How.XPATH, using = "//*[@id=\"menu-item-18261\"]")
 	private WebElement aboutus;
 

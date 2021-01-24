@@ -11,10 +11,12 @@ public class Homepage {
 
 	WebDriver driver;
 	
+	//Constructor for the webdriver
 	public Homepage(WebDriver driver) {
 		this.driver = driver;
 	}
 
+	//Collection of web element
 	@FindBy(how=How.XPATH, using="/html/body/div[1]/footer/div/div[1]/div[2]/ul/li[1]")
 	private WebElement twitterhandle;
 	

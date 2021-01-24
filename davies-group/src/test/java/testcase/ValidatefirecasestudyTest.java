@@ -66,9 +66,10 @@ public class ValidatefirecasestudyTest {
 		ImageIO.write(eleScreenshot, "png", screenshot);
 
 		// Copy the element screenshot to disk
-		File screenshotLocation = new File("C:\\Screenshot\\screenshot.png");
+		File screenshotLocation = new File("C:\\Users\\aka_s\\git\\Daviesgroupproject\\davies-group\\Screenshot\\screenshot.png");
 		FileUtils.copyFile(screenshot, screenshotLocation);
 		
+		//close the browser
 		Browserdriver.quitDriver(driver);
 
 	}
